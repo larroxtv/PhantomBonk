@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.larrox</groupId>
-    <artifactId>phantombonk</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>PhantomBonk</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>phantombonk</name>
+    <name>PhantomBonk</name>
 
     <properties>
         <java.version>21</java.version>

@@ -27,6 +27,6 @@ world-overrides:
 
 messages:
   prefix: "&8[&bPhantomBonk&8] &7"
-  usage: "&cUsage: /phantombonk reload"
-  reloaded: "&aConfig was reloaded successfully."
-  no-permission: "&cYou don't have permission to do that."
+  usage: "%prefix%&cUsage: /phantombonk reload"
+  reloaded: "%prefix%&aConfig was reloaded successfully."
+  no-permission: "%prefix%&cYou don't have permission to do that."
