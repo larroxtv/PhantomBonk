@@ -1,0 +1,32 @@
+#################################################
+#                 PHANTOM BONK                  #
+#################################################
+
+settings:
+  debug: false
+
+# Global defaults, applied to every world unless overridden below.
+default-rules:
+  causes:
+    NATURAL: true
+    SPAWNER: false
+    SPAWNER_EGG: false
+    COMMAND: false
+    CUSTOM: false
+
+# Per-world overrides. Only list what differs from default-rules.
+# "disabled: true"  -> phantoms always spawn in this world, no checks at all.
+# "causes"          -> overrides individual spawn causes for this world only,
+#                       anything not listed falls back to default-rules.
+world-overrides:
+  # world_nether:
+  #   disabled: true
+  # world_the_end:
+  #   causes:
+  #     NATURAL: false
+
+messages:
+  prefix: "&8[&bPhantomBonk&8] &7"
+  usage: "&cUsage: /phantombonk reload"
+  reloaded: "&aConfig was reloaded successfully."
+  no-permission: "&cYou don't have permission to do that."
